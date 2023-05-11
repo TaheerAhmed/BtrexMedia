@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./galaxy/scene.gltf");
 
   return (
     <mesh>
@@ -21,9 +21,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 10 : 16}
+        position={isMobile ? [0, -0.3, -0.2] : [0, -0.533, -0.1545]}
+        // rotation={[-0.01, 0, 0]}
       />
     </mesh>
   );
@@ -58,16 +58,20 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [0, -1.3, 2.1], fov:45 }}
+      scale={1}
+
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-        // autoRotate={true}
-        // rotateSpeed={0.5}
           enableZoom={false}
-          maxPolarAngle={1.59}
-          minPolarAngle={1.59}
+          enableRotate={true}
+        autoRotate
+        autoRotateSpeed={11.5}
+
+          maxPolarAngle={1.4}
+          minPolarAngle={1.4}
         />
         <Computers isMobile={isMobile} />
       </Suspense>

@@ -19,7 +19,7 @@ const App = () => {
 
         
         <div>
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
 
         <Works />
         <Feedbacks />
