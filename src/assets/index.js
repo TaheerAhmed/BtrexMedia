@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import cash from './cash.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,7 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import interactive from './interactive.png'
+import connect from './connect.png'
+import money from './money.png'
+import agent from './agent.png'
 export {
   logo,
   backend,
@@ -59,4 +62,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  cash,
+  interactive,
+  connect,
+  agent,
+  money
 };

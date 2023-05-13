@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  cash,
+  agent,
+  connect,
+  interactive,
+  money
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +47,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Community Building",
+    icon: connect,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Directing Leads",
+    icon: interactive,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Nurturing Leads",
+    icon: agent,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Converting Leads",
+    icon: money,
   },
 ];
 
@@ -116,57 +121,57 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Pillar of Commitment",
+    company_name: "We shield clients from risks, whilst ensuring results",
+    icon: cash,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Step 1",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Empowering coaches as the pinnacle of results-driven excellence.",
+      "Nurturing sustainable success through proven expertise and methodologies.",
+      "Instilling confidence in your growth investment with demonstrated results.",
+      "Embrace a promising future, leaving behind past disappointment.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "The Cornerstone Principle",
+    company_name: "Scaling coaching businesses – that's our daily bread and butter.",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Step 2",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Fostering business growth necessitates the establishment of a robust and distinctive identity that distinguishes you from market competitors.",
+      "Each client at Btrex Media benefits from a dedicated customer acquisition engine, specifically designed and constructed for their needs.",
+      "This includes a rigorously vetted appointment-setting team and dependable systems meticulously set in place.",
+      "The result is an automated system for booking meetings and effectively monetizing their audience.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Growth Alliance Framework",
+    company_name: "Your Strategic Growth Allies",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Step 3",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Achieving six to seven-figure success extends beyond excelling in a single medium, a principle we at Btrex Media understand deeply.",
+      "This realization has led us to serve as Growth Allies for our clients, providing comprehensive, holistic support for their businesses.",
+      "As a Growth Ally, we go beyond offering a singular service, focusing instead on comprehensive business enhancement.",
+      "This approach often cultivates a personalized, long-term relationship between our clients and the Btrex Media team, fostering a partnership built on shared growth and success.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

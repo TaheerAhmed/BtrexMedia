@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}></p>
         <h2 className={styles.sectionHeadText}>Why choose us?</h2>
       </motion.div>
 
@@ -47,11 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        We're not just any client acquisition company. We're your dedicated partner in growth.
+        With our AI-infused strategies and a personalized appointment setting team,
+        we secure 50-60 high-quality meetings for you within 2 months. Choose Btrex Media,
+        where technology meets personalized service, to supercharge your business development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
