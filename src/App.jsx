@@ -10,24 +10,27 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-      
+
 
         {/* <Tech /> */}
         <About />
 
         <Experience />
 
-        
-        <div>
-          <StarsCanvas />
 
-        <Works />
-        <Feedbacks />
+        <div>
+          {/* <StarsCanvas /> */}
+
+          <Works />
+          {/* <Feedbacks /> */}
         </div>
         <div className='relative z-0'>
           <Contact />
           {/* <StarsCanvas /> */}
+
         </div>
+        <div className="calendly-inline-widget min-w-[320px] h-[700px]" data-url="https://calendly.com/btrex-media/30min"></div>
+
       </div>
     </BrowserRouter>
   );

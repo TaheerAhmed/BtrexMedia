@@ -27,7 +27,10 @@ import {
   agent,
   connect,
   interactive,
-  money
+  money,
+  flowChart,
+  rocket,
+  shield,
 } from "../assets";
 
 export const navLinks = [
@@ -123,7 +126,7 @@ const experiences = [
   {
     title: "Pillar of Commitment",
     company_name: "We shield clients from risks, whilst ensuring results",
-    icon: cash,
+    icon: shield,
     iconBg: "#383E56",
     date: "Step 1",
     points: [
@@ -135,8 +138,9 @@ const experiences = [
   },
   {
     title: "The Cornerstone Principle",
-    company_name: "Scaling coaching businesses – that's our daily bread and butter.",
-    icon: tesla,
+    company_name:
+      "Scaling coaching businesses – that's our daily bread and butter.",
+    icon: flowChart,
     iconBg: "#E6DEDD",
     date: "Step 2",
     points: [
@@ -149,7 +153,7 @@ const experiences = [
   {
     title: "Growth Alliance Framework",
     company_name: "Your Strategic Growth Allies",
-    icon: shopify,
+    icon: rocket,
     iconBg: "#383E56",
     date: "Step 3",
     points: [
@@ -203,9 +207,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "The Core",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      'Our initial stage, "Foundational Copywriting, Analysis, and Research," provides an in-depth understanding of your customer base, industry, and key metrics. We also scrutinize your sales process for potential enhancements, aiming to promptly address gaps, boost your conversion rates, and maximize your client acquisition system\'s efficiency.',
     tags: [
       {
         name: "react",
@@ -224,9 +228,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AI Marketing Optimization",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "After conducting a thorough investigation of your sector, scrutinizing your competitors, understanding the essential metrics, and discerning the key attributes of your target customers, we assist in formulating an appealing proposition that resonates with your audience.",
     tags: [
       {
         name: "react",
@@ -245,9 +249,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Profitable Community Transformation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Turn your social media followers into a profitable engine with our specialized monetization services. Our professionals will harness your existing audience from platforms like Instagram, TikTok, or LinkedIn, directing traffic to a meticulously designed private SKOOL or Discord community, facilitated by AI-powered Dynamic Video Sales Letters. ",
     tags: [
       {
         name: "nextjs",
